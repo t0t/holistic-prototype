@@ -1,13 +1,10 @@
 # TODH - holistic prototype
+
 Living prototype based on a systemic-functional paradigm.
----
 
 ## Mi propósito
 
 Enfocado en encontrar interconexiones sistémicas eficientes entre ideas y hechos, desde una visión holística del proceso creativo donde el todo es más que la suma de sus partes.
-
-Tags: Escalable, reusable, holistic, fast, lightweight, clean, ready. 
-------------------
 
 ## Goal
 
