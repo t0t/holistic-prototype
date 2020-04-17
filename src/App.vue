@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="TODH"/>
+    <Brand msg="TODH"/>
+    <img alt="Cover" src="./assets/img1.jpg">
     <Wellcome msg="instantly prototype new ideas"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Brand from './components/Brand.vue'
 import Wellcome from './components/Wellcome.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Brand,
     Wellcome
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div>
     <h2>{{ msg }}</h2>
     <p>
       De la idea al rápido prototipado tangible. Instant Prototyping. Instantly prototype new ideas.
