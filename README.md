@@ -1,6 +1,27 @@
-# my-project
+# TODH - holistic prototype
+Living prototype based on a systemic-functional paradigm.
+---
 
-https://cli.vuejs.org/guide/
+## Mi propósito
+
+Enfocado en encontrar interconexiones sistémicas eficientes entre ideas y hechos, desde una visión holística del proceso creativo donde el todo es más que la suma de sus partes.
+
+Tags: Escalable, reusable, holistic, fast, lightweight, clean, ready. 
+------------------
+
+## Goal
+
+I give my clients a very basic functional prototype as starting point with functionality and desired tech stack and then developers could give it superpowers bringing it to the next level.
+
+## Tech stack 
+
+- JAMstack based philosophy
+- Vuejs CLI
+- Prismic (or similar) for CMS
+- Componentized System Design
+- Github Pages / Netlify for hosting
+
+------------------
 
 ## Project setup
 ```
@@ -22,5 +43,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
+### Configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Guide](https://cli.vuejs.org/guide/).
