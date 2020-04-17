@@ -25,10 +25,11 @@ export default {
 
 .Features {
   padding: $size / 2;
+  display: block;
   
-  &List { 
-      border: 1px solid red;
-    }
+  &Title { 
+    width: 100%;
+  }
 }
 
 </style>

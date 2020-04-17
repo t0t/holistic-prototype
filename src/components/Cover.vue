@@ -1,12 +1,12 @@
 <template>
-  <div class="Cover">
+  <section class="Cover">
     <h2 class="CoverTitle">{{ msg }}</h2>
-  </div>
+  </section>
 </template>
 
 <script>
 export default {
-  name: 'Wellcome',
+  name: 'Cover',
   props: {
     msg: String
   }
