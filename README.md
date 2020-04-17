@@ -23,6 +23,15 @@ I give my clients a very basic functional prototype as starting point with funct
 
 ------------------
 
+## 2 step deploy on Gh-pages
+```
+chmod +x deploy.sh 
+```
+Run from project root:
+```
+./deploy.sh
+```
+
 ## Project setup
 ```
 npm install
