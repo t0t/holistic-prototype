@@ -1,5 +1,5 @@
 <template>
-  <div class="brand">
+  <div class="Brand">
     <img alt="Vue logo" src="../assets/logo-todh-2.svg">
     <h1>{{ msg }}</h1>
   </div>
@@ -15,12 +15,18 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-a {
-  color: #42b983;
+<style lang="scss">
+@import "../styles/main.scss";
+
+.Brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: $size / 2;
 }
-img {
-  max-width: 100px;
+.Brand img {
+    max-width: 200px;
+    margin-right: $size;
 }
 
 </style>

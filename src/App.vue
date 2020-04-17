@@ -1,20 +1,22 @@
 <template>
   <div id="app">
     <Brand msg="TODH"/>
-    <img alt="Cover" src="./assets/img1.jpg">
-    <Wellcome msg="instantly prototype new ideas"/>
+    <Wellcome msg="Instantly prototyping new ideas"/>
+    <Features msg="Listado de servicios"/>
   </div>
 </template>
 
 <script>
 import Brand from './components/Brand.vue'
 import Wellcome from './components/Wellcome.vue'
+import Features from './components/Features.vue'
 
 export default {
   name: 'App',
   components: {
     Brand,
-    Wellcome
+    Wellcome,
+    Features
   }
 }
 </script>
@@ -28,7 +30,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: $primary;
-  margin-top: $size;
+  margin-top: $size / 2;
 }
 </style>
