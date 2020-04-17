@@ -1,6 +1,9 @@
-# TODH - holistic prototype
+# 🏄TODH - holistic prototype
 
-Living prototype based on a systemic-functional paradigm.
+Living prototype based on a systemic-functional paradigm. 
+
+- Acción contínua incremental.
+- Instantly prototype new ideas
 
 ## Mi propósito
 
