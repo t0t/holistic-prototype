@@ -27,7 +27,7 @@ I give my clients a very basic functional prototype as starting point with funct
 ```
 chmod +x deploy.sh 
 ```
-Run from project root:
+Run command from project root:
 ```
 ./deploy.sh
 ```

@@ -19,13 +19,16 @@ export default {
 }
 </script>
 
-<style>
+
+<style lang="scss">
+@import "./styles/_variables.scss";
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: $primary_font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: $primary;
+  margin-top: $size;
 }
 </style>
