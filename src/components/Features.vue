@@ -1,11 +1,12 @@
 <template>
   <div class="Features">
+    <img alt="Feature img" src="../assets/grafico-1.svg">
     <h2 class="FeaturesTitle">{{ msg }}</h2>
     <ul class="FeaturesList">
-        <li> kjkjhb kjhb k</li>
-        <li> kjkjhb kjhb k</li>
-        <li> kjkjhb kjhb k</li>
-        <li> kjkjhb kjhb k</li>
+        <li>Djkjhb kjhb k</li>
+        <li>Djkjhb kjhb k</li>
+        <li>Kds shf wjhgv  kjhb k</li>
+        <li>Djkjhb kjhb k</li>
     </ul>
   </div>
 </template>
@@ -26,6 +27,10 @@ export default {
 .Features {
   padding: $size / 2;
   display: block;
+
+  img {
+    max-height: 100px;
+  }
   
   &Title { 
     width: 100%;

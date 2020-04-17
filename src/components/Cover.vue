@@ -1,6 +1,7 @@
 <template>
   <section class="Cover">
     <h2 class="CoverTitle">{{ msg }}</h2>
+    <h3 class="CoverSubtitle">Thoughts become things</h3>
   </section>
 </template>
 
@@ -18,18 +19,25 @@ export default {
 @import "../styles/main.scss";
 
 .Cover {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../assets/img1.jpg');
-  background-size: cover;
-  height: $size * 8;
+  // display: flex;
+  background-image: url('../assets/img2.jpg');
+  background-position: left;
+  height: 100vh;
   padding: $size / 2;
-  &Title {
-    color: $primary;
-    font-size: 80px;
-  }
+}
+
+.CoverTitle {
+  margin-top: 100px;
+  text-align: left;
+  width: 50%;
+  color: $primary;
+  font-size: 80px;
+}
+
+.CoverSubtitle {
+  text-align: left;
+  width: 100%;
+  color: $white;
 }
 
 </style>

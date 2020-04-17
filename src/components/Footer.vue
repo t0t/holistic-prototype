@@ -1,13 +1,13 @@
 <template>
-  <div class="Brand">
+  <div class="Footer">
     <img alt="Vue logo" src="../assets/logo-todh-2.svg">
-    <h1>{{ msg }}</h1>
+    <small>{{ msg }}</small>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Brand',
+  name: 'Footer',
   props: {
     msg: String
   }
@@ -18,17 +18,15 @@ export default {
 <style lang="scss">
 @import "../styles/main.scss";
 
-.Brand {
-  position: fixed;
-  width: 100%;
+.Footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  margin: 0;
+  margin-bottom: $size / 2;
 }
-.Brand img {
-    max-width: 100px;
-    margin: $size / 2;
+.Footer img {
+    max-width: 20px;
+    margin-right: $size / 4;
 }
 
 </style>
