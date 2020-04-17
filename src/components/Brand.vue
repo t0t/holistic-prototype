@@ -25,6 +25,7 @@ export default {
   justify-content: flex-start;
   align-items: center;
   margin: 0;
+  color: $white;
 }
 .Brand img {
     max-width: 100px;

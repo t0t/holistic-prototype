@@ -21,7 +21,9 @@ export default {
 .Cover {
   // display: flex;
   background-image: url('../assets/img2.jpg');
-  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   height: 100vh;
   padding: $size / 2;
 }
@@ -29,7 +31,7 @@ export default {
 .CoverTitle {
   margin-top: 100px;
   text-align: left;
-  width: 50%;
+  width: 75%;
   color: $primary;
   font-size: 80px;
 }
