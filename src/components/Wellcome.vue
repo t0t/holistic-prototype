@@ -40,7 +40,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-@import "./styles/_variables.scss";
+@import "./styles/_main.scss";
 
 h3 {
   margin: 40px 0 0;
