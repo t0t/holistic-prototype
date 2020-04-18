@@ -1,5 +1,5 @@
 <template>
-  <div class="Features">
+  <section class="Features">
     <img alt="Feature img" src="../assets/grafico-1.svg">
     <h2 class="FeaturesTitle">{{ msg }}</h2>
     <ul class="FeaturesList">
@@ -8,7 +8,7 @@
         <li>Kds shf wjhgv  kjhb k</li>
         <li>Djkjhb kjhb k</li>
     </ul>
-  </div>
+  </section>
 </template>
 
 <script>
