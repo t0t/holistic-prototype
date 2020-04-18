@@ -1,16 +1,12 @@
 <template>
   <div class="Brand">
     <img alt="Vue logo" src="../assets/logo-todh-2.svg" />
-    <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
   name: "Brand",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

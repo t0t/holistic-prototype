@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <Brand msg="t-o-d-h" />
-    <Cover msg="Instantly prototyping new ideas" />
-    <Features msg="Listado de servicios" />
-    <Gallery msg="Galería de fotos" />
-    <Footer msg="By Sergio Fores - 2020" />
+    <Brand />
+    <MainMenu />
+    <Cover msg="Sergio Forés" />
+    <Features msg="Áreas de investigación" />
+    <Gallery msg="Artwork" />
+    <Footer msg="Sergio Forés" />
   </div>
 </template>
 
 <script>
+import MainMenu from "./components/MainMenu.vue";
 import Brand from "./components/Brand.vue";
 import Cover from "./components/Cover.vue";
 import Features from "./components/Features.vue";
@@ -18,6 +20,7 @@ import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
+    MainMenu,
     Brand,
     Cover,
     Features,

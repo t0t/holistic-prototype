@@ -1,7 +1,9 @@
 <template>
   <section class="Cover">
     <h2 class="CoverTitle">{{ msg }}</h2>
-    <h3 class="CoverSubtitle">Thoughts become things</h3>
+    <h3 class="CoverSubtitle">Catálogo de obras impresas en 3D</h3>
+      <h3 class="CoverSubtitle"> Prototipado evolutivo de sitios web</h3>
+      <h3 class="CoverSubtitle"> Corpus teórico sobre el proceso de la creación.</h3>
   </section>
 </template>
 
@@ -19,11 +21,10 @@ export default {
 @import "../styles/main.scss";
 
 .Cover {
-  // display: flex;
-  background-image: url('../assets/img2.jpg');
+  background-image: url('../assets/img4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 30% 50%;
   height: 100vh;
   padding: $size / 2;
 }
@@ -38,7 +39,7 @@ export default {
 
 .CoverSubtitle {
   text-align: left;
-  width: 100%;
+  width: 30%;
   color: $white;
 }
 

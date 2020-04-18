@@ -2,12 +2,17 @@
   <section class="Features">
     <img alt="Feature img" src="../assets/grafico-1.svg" />
     <h2 class="FeaturesTitle">{{ msg }}</h2>
-    <ul class="FeaturesList">
-      <li>Djkjhb kjhb k</li>
-      <li>Djkjhb kjhb k</li>
-      <li>Kds shf wjhgv kjhb k</li>
-      <li>Djkjhb kjhb k</li>
-    </ul>
+    <dl class="FeaturesList">
+      <dt>Arte visual</dt>
+      <dd>Modelado/Impresión 3D</dd>
+      <dt>Prototipado rápido de Interfaces de usuario</dt>
+      <dd>Pr wefrefer f</dd>
+      <dd>ewf rwf wrf 4rfw4</dd>
+      <dd>Wef rrtretgr wrf 4rfw4</dd>
+      <dt>TODH</dt>
+      <dd>Percepción holística</dd>
+      <dd>Corpus filosófico</dd>
+    </dl>
   </section>
 </template>
 
