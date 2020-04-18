@@ -1,8 +1,8 @@
 <template>
-  <div class="Footer">
+  <footer class="Footer">
     <img alt="Vue logo" src="../assets/logo-todh-2.svg" />
     <small>{{ msg }}</small>
-  </div>
+  </footer>
 </template>
 
 <script>
