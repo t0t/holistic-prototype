@@ -1,17 +1,17 @@
 <template>
   <div class="Brand">
-    <img alt="Vue logo" src="../assets/logo-todh-2.svg">
+    <img alt="Vue logo" src="../assets/logo-todh-2.svg" />
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Brand',
+  name: "Brand",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -28,8 +28,7 @@ export default {
   color: $white;
 }
 .Brand img {
-    max-width: 100px;
-    margin: $size / 2;
+  max-width: 100px;
+  margin: $size / 2;
 }
-
 </style>

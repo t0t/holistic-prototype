@@ -52,6 +52,13 @@ npm run build
 npm run lint
 ```
 
+### Todo List
+- change favicon
+- inline svg
+- routing
+- Prismic implementation
+
+
 ### Configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 See [Guide](https://cli.vuejs.org/guide/).

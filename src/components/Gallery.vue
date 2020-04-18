@@ -1,24 +1,24 @@
 <template>
   <section class="Gallery">
     <h1 class="GalleryTitle">{{ msg }}</h1>
-    <img alt="Img gallery" src="../assets/img1.jpg">
-    <img alt="Img gallery" src="../assets/img1.jpg">
-    <img alt="Img gallery" src="../assets/img1.jpg">
-    <img alt="Img gallery" src="../assets/img1.jpg">
-    <img alt="Img gallery" src="../assets/img1.jpg">
-    <img alt="Img gallery" src="../assets/img1.jpg">
-    <img alt="Img gallery" src="../assets/img1.jpg">
-    <img alt="Img gallery" src="../assets/img1.jpg">
+    <img alt="Img gallery" src="../assets/img1.jpg" />
+    <img alt="Img gallery" src="../assets/img1.jpg" />
+    <img alt="Img gallery" src="../assets/img1.jpg" />
+    <img alt="Img gallery" src="../assets/img1.jpg" />
+    <img alt="Img gallery" src="../assets/img1.jpg" />
+    <img alt="Img gallery" src="../assets/img1.jpg" />
+    <img alt="Img gallery" src="../assets/img1.jpg" />
+    <img alt="Img gallery" src="../assets/img1.jpg" />
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Gallery',
+  name: "Gallery",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -35,7 +35,6 @@ export default {
   }
 }
 .Gallery img {
-    max-width: 300px;
+  max-width: 300px;
 }
-
 </style>
