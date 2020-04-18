@@ -40,6 +40,12 @@ export default {
   padding: ($size / 8) 0;
   a {
     margin-right: 10px;
+    svg path {
+      fill: $dark-grey;
+      &:hover {
+        fill: $grey;
+      }
+    }
   }
 }
 </style>
